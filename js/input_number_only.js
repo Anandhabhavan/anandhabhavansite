@@ -1,6 +1,1 @@
-function allowNumbersOnly(e) {
-var code = (e.which) ? e.which : e.keyCode;
-if (code > 31 && (code < 48 || code > 57)) {
-e.preventDefault();
-}
-}    
+function allowNumbersOnly(e){var h=e.which?e.which:e.keyCode;h>31&&(h<48||h>57)&&e.preventDefault()}
